@@ -4,11 +4,10 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class SwapNumbersTest {
+class RepeatedcharsTest {
 
     @Test
-    void swapping() {
-       assertArrayEquals(new int[]{10,6},SwapNumbers.swapping(6,10));
-
+    void repeatedcharfunc() {
+        assertEquals("l",Repeatedchars.repeatedcharfunc("hello"));
     }
 }
