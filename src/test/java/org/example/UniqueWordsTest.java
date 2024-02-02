@@ -12,5 +12,6 @@ class UniqueWordsTest {
     @Test
     void uniqueWordsCount() {
         assertEquals(Map.of("all", 2, "is", 1, "so", 1),UniqueWords.uniqueWordsCount("all is so all"));
+
     }
 }
