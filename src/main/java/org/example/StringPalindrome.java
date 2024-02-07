@@ -14,11 +14,10 @@ public class StringPalindrome {
         for(int j=str.length()-1;j>=0;j--){
             n+=str.charAt(j)+"";
         }
-        boolean equals = str.toLowerCase().equals(n.toLowerCase());
-        if(equals){
+        if(str.toLowerCase().equals(n.toLowerCase())){
             System.out.println("Palindrome");
         }else{
             System.out.println("not a palindrome");
-        }return equals;
+        }return str.toLowerCase().equals(n.toLowerCase());
     }
 }
